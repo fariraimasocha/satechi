@@ -14,7 +14,25 @@
                     <!-- Navigation Links -->
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
-                            {{ __('Home') }}
+                            {{ __('HOME') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('APPLY TO STUDY') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('LIST OF COURSES') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('CONTACTS') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('NEWS') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('MEDIA') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                            {{ __('COLLEGE COMMUNITY') }}
                         </x-nav-link>
                     </div>
                 </div>

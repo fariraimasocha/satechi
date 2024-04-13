@@ -1,6 +1,5 @@
 <x-layout>
-
-    <div id="default-carousel" class="relative rounded-lg overflow-hidden shadow-lg" data-carousel="static">
+    <div id="default-carousel" class="relative overflow-hidden shadow-lg" data-carousel="static">
         <!-- Carousel wrapper -->
         <div class="relative h-80 md:h-96 w-full" data-carousel-inner>
             <!-- Item 1 -->
@@ -10,7 +9,7 @@
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out w-full" data-carousel-item>
-                <img src="{{ asset('images/slider.jpg') }}" class="object-cover w-full h-full" alt="Slide 2">
+                <img src="{{ asset('images/slider2.jpg') }}" class="object-cover w-full h-full" alt="Slide 2">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out w-full" data-carousel-item>
@@ -36,8 +35,89 @@
         </button>
     </div>
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
-
-
     <div class="bg-blue1 py-4">
+        <p class="text-white uppercase w-10/12 mx-auto">The South African Technology Institute equips students with the best tools for studying.
+            Our laboratories are filled with the latest equipment. When a student completes their studies with us,
+            they transition seamlessly into the work environment. </p>
+        <div class="w-10/12 mx-auto flex justify-between">
+            <div class="w-96 mt-3.5 rounded-lg overflow-hidden">
+                <div class="bg-orange1 py-2 px-6">
+                    <h1 class="text-white text-lg font-semibold">
+                        Degree in Computer Science
+                    </h1>
+                </div>
+                <div class="bg-white py-4 px-6">
+                    <div class="text-sm">
+                        <p>1277 Seats Available</p>
+                        <p>2 Lectures</p>
+                        <p>3 Computer Labs</p>
+                        <p>Online and Physical Lectures</p>
+                        <p>Online Exams</p>
+                        <p>99% Pass rate</p>
+                    </div>
+                    <div class="flex items-center justify-between mt-2">
+                        <h1 class="font-semibold text-xl">
+                            R 154 678,00
+                        </h1>
+                        <div class="flex space-x-2">
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">View</button>
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-96 mt-3.5 rounded-lg overflow-hidden">
+                <div class="bg-orange1 py-2 px-6">
+                    <h1 class="text-white text-lg font-semibold">
+                        Degree in Computer Science
+                    </h1>
+                </div>
+                <div class="bg-white py-4 px-6">
+                    <div class="text-sm">
+                        <p>1277 Seats Available</p>
+                        <p>2 Lectures</p>
+                        <p>3 Computer Labs</p>
+                        <p>Online and Physical Lectures</p>
+                        <p>Online Exams</p>
+                        <p>99% Pass rate</p>
+                    </div>
+                    <div class="flex items-center justify-between mt-2">
+                        <h1 class="font-semibold text-xl">
+                            R 154 678,00
+                        </h1>
+                        <div class="flex space-x-2">
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">View</button>
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-96 mt-3.5 rounded-lg overflow-hidden">
+                <div class="bg-orange1 py-2 px-6">
+                    <h1 class="text-white text-lg font-semibold">
+                        Degree in Computer Science
+                    </h1>
+                </div>
+                <div class="bg-white py-4 px-6">
+                    <div class="text-sm">
+                        <p>1277 Seats Available</p>
+                        <p>2 Lectures</p>
+                        <p>3 Computer Labs</p>
+                        <p>Online and Physical Lectures</p>
+                        <p>Online Exams</p>
+                        <p>99% Pass rate</p>
+                    </div>
+                    <div class="flex items-center justify-between mt-2">
+                        <h1 class="font-semibold text-xl">
+                            R 154 678,00
+                        </h1>
+                        <div class="flex space-x-2">
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">View</button>
+                            <button class="bg-blue1 text-white rounded-lg px-3 py-1 hover:bg-orange1 transition">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </x-layout>

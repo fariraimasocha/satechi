@@ -1,7 +1,8 @@
 <x-layout>
-    <div class="">
-        <div class="">
-            <img src="{{ asset('images/stu.jpg') }}" alt="Students" class="h-96 w-full" />
-        </div>
+    <div id="students">
+            <img src="{{ asset('images/stu.jpg') }}" alt="Students" class="h-96" />
+    </div>
+    <div>
+
     </div>
 </x-layout>

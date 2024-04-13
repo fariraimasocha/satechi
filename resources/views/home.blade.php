@@ -120,4 +120,11 @@
             </div>
         </div>
     </div>
+    <div class="">
+        <div class="w-full h-24 bg-orange1">
+        </div>
+    </div>
+    <div class="bg-blue1 ">
+
+    </div>
 </x-layout>

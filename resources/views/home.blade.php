@@ -124,7 +124,26 @@
         <div class="w-full h-24 bg-orange1">
         </div>
     </div>
-    <div class="bg-blue1 ">
-
+    <div class="bg-blue1 py-12">
+        <div class="w-10/12 mx-auto flex space-x-16 justify-center">
+           <div class="w-64 h-52 bg-white">
+           </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+        </div>
+        <div class="w-10/12 mx-auto flex space-x-16 justify-center mt-8">
+            <div class="w-64 h-52 bg-white">
+            </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+            <div class="w-64 h-52 bg-white">
+            </div>
+        </div>
     </div>
 </x-layout>

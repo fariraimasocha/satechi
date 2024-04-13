@@ -17,8 +17,9 @@ export default {
     theme: {
         extend: {
             colors : {
-                black1: '#fbc33b',
-                blue1: '#003087',
+                orange1: '#d69400',
+                blue1: '#004f84',
+                blue2: '#0039ce',
 
             },
         },

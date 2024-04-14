@@ -1,3 +1,3 @@
 <div class="">
-    <img src="{{ asset('images/satechi.jpeg') }}" alt="Students" class=" w-10 h-10" />
+    <img src="{{ asset('images/satechi.png') }}" alt="Students" class=" w-40 h-10" />
 </div>

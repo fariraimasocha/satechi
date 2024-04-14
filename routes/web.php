@@ -1,5 +1,16 @@
 <?php
 
+use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\AccredidationController;
+use App\Http\Controllers\ApplyController;
+use App\Http\Controllers\CollegeTeamController;
+use App\Http\Controllers\CommunityController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\MediaController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,15 +27,22 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['splade'])->group(function () {
     Route::get('/', fn () => view('home'))->name('home');
 
-    // Registers routes to support the interactive components...
+    Route::resource('/apply', ApplyController::class);
+    Route::resource('/courses', CourseController::class);
+    Route::resource('/contacts', ContactController::class);
+    Route::resource('/news', NewsController::class);
+    Route::resource('/media', MediaController::class);
+    Route::resource('/community', CommunityController::class);
+
+    Route::resource('/aboutus', AboutUsController::class);
+    Route::resource('/services', ServicesController::class);
+    Route::resource('/accreditations', AccredidationController::class);
+    Route::resource('/students', StudentController::class);
+    Route::resource('/collegeteam', CollegeTeamController::class);
+
+
     Route::spladeWithVueBridge();
-
-    // Registers routes to support password confirmation in Form and Link components...
     Route::spladePasswordConfirmation();
-
-    // Registers routes to support Table Bulk Actions and Exports...
     Route::spladeTable();
-
-    // Registers routes to support async File Uploads with Filepond...
     Route::spladeUploads();
 });

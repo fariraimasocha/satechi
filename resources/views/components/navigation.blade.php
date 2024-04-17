@@ -16,19 +16,19 @@
                         <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                             {{ __('HOME') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('apply.index') }}" :active="request()->routeIs('apply.index')">
                             {{ __('APPLY TO STUDY') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('courses.index') }}" :active="request()->routeIs('courses.index')">
                             {{ __('LIST OF COURSES') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('contacts.index') }}" :active="request()->routeIs('contacts.index')">
                             {{ __('CONTACTS') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('news.index') }}" :active="request()->routeIs('news.index')">
                             {{ __('NEWS') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('media.index') }}" :active="request()->routeIs('media.index')">
                             {{ __('MEDIA') }}
                         </x-nav-link>
                         <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">

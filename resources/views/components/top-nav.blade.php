@@ -5,7 +5,7 @@
             <div class="flex space-x-1">
                 <div class="rounded-full w-3 h-3 bg-white mt-1">
                 </div>
-                <h1 class="text-white text-sm">MY ACCOUNT</h1>
+                <h1 class="text-white text-sm">LOGIN</h1>
             </div>
         </div>
     </div>

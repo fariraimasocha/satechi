@@ -13,7 +13,7 @@ class CollegeTeamController extends Controller
      */
     public function index()
     {
-        //
+        return view('collegeTeam.index');
     }
 
     /**

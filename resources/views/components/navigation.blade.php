@@ -31,7 +31,7 @@
                         <x-nav-link href="{{ route('media.index') }}" :active="request()->routeIs('media.index')">
                             {{ __('MEDIA') }}
                         </x-nav-link>
-                        <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                        <x-nav-link href="{{ route('collegeteam.index') }}" :active="request()->routeIs('collegeteam.index')">
                             {{ __('COLLEGE COMMUNITY') }}
                         </x-nav-link>
                     </div>

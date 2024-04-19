@@ -5,7 +5,9 @@
             <div class="flex space-x-1">
                 <div class="rounded-full w-3 h-3 bg-white mt-1">
                 </div>
-                <h1 class="text-white text-sm">LOGIN</h1>
+                <a href="{{route('login')}}" >
+                <button class="text-white text-sm">LOGIN</button>
+                </a>
             </div>
         </div>
     </div>

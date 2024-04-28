@@ -3,15 +3,18 @@
         <div class="flex justify-between">
             <h1 class="text-white text-sm">Whatsapp:061 486 5651 | Email:info@satechi.co.zw | Tirelo ICT Park Mabulela Atok</h1>
             <div class="flex space-x-1">
+                <div class="rounded-full w-3 h-3 bg-white mt-2">
+                </div>
                 @if (Auth::check())
-                    <a href="{{ route('logout') }}">
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
                         <button class="text-white text-sm">LOGOUT</button>
-                    </a>
+                    </form>
                 @else
                     <a href="{{ route('login') }}">
                         <button class="text-white text-sm">LOGIN</button>
                     </a>
-                @endif
+                    @endif
             </div>
         </div>
     </div>
